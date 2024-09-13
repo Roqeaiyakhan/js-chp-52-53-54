@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Swap Example</title>
+    <style>
+        img {
+            width: 300px;
+            height: 300px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Image Swapping Gallery</h1>
+    <div class="gallery">
+        <img src="./OIP.jpeg" alt="Image 1" onclick="swapImage('./OIP.jpeg')">
+        <img src="./bird2.jpg" alt="Image 2" onclick="swapImage('./bird2.jpg')">
+        <img src="./bird3.jpeg" alt="Image 3" onclick="swapImage('./bird3.jpeg')">
+    </div>
+    <p>Selected Image</p>
+    <img id="mainImage" class="main-image" src="./OIP.jpeg" alt="Main Image">
+</body>
+</html>
+
+    <script src="./main.js" > </script>
+    
+</body>
+</html>
